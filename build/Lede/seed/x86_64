@@ -2,16 +2,49 @@ CONFIG_TARGET_x86=y
 CONFIG_TARGET_x86_64=y
 CONFIG_TARGET_x86_64_DEVICE_generic=y
 CONFIG_GRUB_IMAGES=y
+CONFIG_PACKAGE_appfilter=y
 CONFIG_PACKAGE_auto-scripts=y
 # CONFIG_PACKAGE_autosamba is not set
 CONFIG_PACKAGE_bash=y
+# CONFIG_PACKAGE_coreutils is not set
+# CONFIG_PACKAGE_dns2socks is not set
+# CONFIG_PACKAGE_dns2tcp is not set
+CONFIG_PACKAGE_kmod-oaf=y
+CONFIG_PACKAGE_libatomic=y
+# CONFIG_PACKAGE_libev is not set
 CONFIG_PACKAGE_libgmp=y
+# CONFIG_PACKAGE_libmbedtls is not set
 CONFIG_PACKAGE_libnetsnmp=y
+# CONFIG_PACKAGE_libpcap is not set
+# CONFIG_PACKAGE_libpcre2 is not set
 CONFIG_PACKAGE_libruby=y
+# CONFIG_PACKAGE_libsodium is not set
+# CONFIG_PACKAGE_libuci-lua is not set
+# CONFIG_PACKAGE_libudns is not set
 CONFIG_PACKAGE_libyaml=y
+# CONFIG_PACKAGE_lua-neturl is not set
 CONFIG_PACKAGE_luci-app-adguardhome=y
+CONFIG_PACKAGE_luci-app-mosdns=y
+CONFIG_PACKAGE_luci-app-oaf=y
 CONFIG_PACKAGE_luci-app-openclash=y
+CONFIG_PACKAGE_luci-app-socat=y
+# CONFIG_PACKAGE_luci-app-ssr-plus is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_DNS2SOCKS is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_MosDNS is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Server is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Simple_Obfs is not set
+CONFIG_PACKAGE_luci-app-unblockneteasemusic=y
+CONFIG_PACKAGE_luci-app-uugamebooster=y
+CONFIG_PACKAGE_luci-i18n-mosdns-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-oaf-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-socat-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-uugamebooster-zh-cn=y
+# CONFIG_PACKAGE_microsocks is not set
+CONFIG_PACKAGE_node=y
+# CONFIG_PACKAGE_nping is not set
 CONFIG_PACKAGE_openssh-sftp-server=y
+# CONFIG_PACKAGE_resolveip is not set
 CONFIG_PACKAGE_ruby=y
 CONFIG_PACKAGE_ruby-bigdecimal=y
 CONFIG_PACKAGE_ruby-date=y
@@ -21,8 +54,22 @@ CONFIG_PACKAGE_ruby-pstore=y
 CONFIG_PACKAGE_ruby-psych=y
 CONFIG_PACKAGE_ruby-stringio=y
 CONFIG_PACKAGE_ruby-yaml=y
+# CONFIG_PACKAGE_shadowsocks-libev-config is not set
+# CONFIG_PACKAGE_shadowsocks-libev-ss-server is not set
+# CONFIG_PACKAGE_shadowsocks-rust-sslocal is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-check is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-local is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir is not set
+# CONFIG_PACKAGE_simple-obfs-client is not set
 CONFIG_PACKAGE_snmpd=y
+CONFIG_PACKAGE_socat=y
+# CONFIG_PACKAGE_tcping is not set
 CONFIG_PACKAGE_unzip=y
+CONFIG_PACKAGE_uugamebooster=y
+CONFIG_PACKAGE_v2dat=y
+CONFIG_PACKAGE_v2ray-geoip=y
+CONFIG_PACKAGE_v2ray-geosite=y
+# CONFIG_PACKAGE_xray-core is not set
 CONFIG_RUBY_ENABLE_YJIT=y
 CONFIG_TARGET_ROOTFS_PARTSIZE=5120
 # CONFIG_KSMBD_SMB_INSECURE_SERVER is not set
